@@ -34,7 +34,8 @@ function Login({ onLogin }: LoginProps) {
     <div className="login-container">
       <div className="login-card">
         <div className="login-logo-container">
-          <img src={`${import.meta.env.BASE_URL}vyoma-logo.png`} alt="Vyoma" className="login-logo" />
+          {/* <img src={`${import.meta.env.BASE_URL}vyoma-logo.png`} alt="Vyoma" className="login-logo" /> */}
+          <img src={`${import.meta.env.BASE_URL}Vyoma_Logo_Blue.png`} alt="Vyoma" className="login-logo" />
         </div>
         <h1 className="devanagari">प्रश्नोत्तरी</h1>
         <p className="login-subtitle">Test your knowledge with our interactive प्रश्नोत्तरी</p>
