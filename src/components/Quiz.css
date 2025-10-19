@@ -20,7 +20,7 @@
 .home-button {
   position: absolute;
   top: 0;
-  left: 0;
+  left: -160px;
   padding: 0.6rem 1rem;
   background: var(--secondary-bg);
   color: var(--text-primary);
@@ -287,7 +287,8 @@
 
 .next-button {
   background: var(--accent-primary);
-  color: var(--text-primary);
+  /* color: var(--text-primary); */
+  color: #ffffff !important;
   border-color: var(--accent-primary);
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
@@ -363,7 +364,9 @@
   
   .nav-button {
     background: var(--secondary-bg);
-    color: var(--text-light);
+    /* color: var(--text-light); */
+    color: #ffffff !important;
+    
   }
   
   .nav-button:hover:not(:disabled) {

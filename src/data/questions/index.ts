@@ -22,3 +22,17 @@ export const getQuizData = (theme: string) => {
   return quizzes[theme as keyof typeof quizzes]
 }
 
+/**
+ * Prompt the user before returning quiz data.
+ * If they cancel, returns undefined.
+ */
+export const confirmAndGetQuizData = (
+  theme: string,
+  message = `Start the "${theme}" quiz now?`
+) => {
+  // Use native confirm for a quick prompt
+  const ok = typeof window !== 'undefined' ? window.confirm(message) : true;
+  if (!ok) return undefined;
+  return getQuizData(theme);
+};
+

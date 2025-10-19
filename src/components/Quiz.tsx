@@ -1,6 +1,6 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
-import { getQuizData } from '../data/questions'
+import { getQuizData,confirmAndGetQuizData } from '../data/questions'
 import { saveUserScore } from '../utils/localStorage'
 import { QuizTheme, UserScore } from '../types'
 import './Quiz.css'
@@ -21,6 +21,9 @@ function Quiz({ userEmail }: QuizProps) {
   const [showFeedback, setShowFeedback] = useState(false)
   const [userAnswer, setUserAnswer] = useState<number | null>(null)
 
+    // 2) Ensure we only prompt once on mount/param change
+  const promptedRef = useRef(false)
+
   useEffect(() => {
     loadQuiz()
   }, [theme])
@@ -29,17 +32,49 @@ function Quiz({ userEmail }: QuizProps) {
     try {
       setLoading(true)
       setError(null)
-      const data = getQuizData(theme!)
+     
+
+      // 3) Prompt once before loading the data
+      if (!promptedRef.current) {
+        const data = confirmAndGetQuizData(
+          theme!,
+          `You are now leaving da.com and will be redirected to "${theme}", a Vyoma-managed website. Click ‘Ok’ to proceed.`
+        )
       
       if (!data) {
         setError('Quiz not found')
         setLoading(false)
         return
       }
-      
+      // user accepted → proceed with data
+        promptedRef.current = true
       setQuizData(data)
       
       // Check for saved progress
+      const savedProgress = localStorage.getItem(`quiz_${theme}`)
+      if (savedProgress) {
+        const progress = JSON.parse(savedProgress)
+        setCurrentQuestion(progress.currentQuestion)
+        setSelectedAnswers(progress.selectedAnswers)
+      } else {
+        setSelectedAnswers(new Array(data.questions.length).fill(-1))
+      }
+    // } catch (err) {
+    //   setError('Failed to load quiz. Please try again.')
+    //   console.error('Error loading quiz:', err)
+    // } finally {
+    //   setLoading(false)
+    // }
+    return
+  }
+
+   // 4) If already prompted (route param change), just load normally
+      const data = getQuizData(theme!)
+      if (!data) {
+        setError('Quiz not found')
+        return
+      }
+      setQuizData(data)
       const savedProgress = localStorage.getItem(`quiz_${theme}`)
       if (savedProgress) {
         const progress = JSON.parse(savedProgress)
