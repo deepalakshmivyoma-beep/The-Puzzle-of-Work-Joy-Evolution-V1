@@ -38,7 +38,7 @@ function Quiz({ userEmail }: QuizProps) {
       if (!promptedRef.current) {
         const data = confirmAndGetQuizData(
           theme!,
-          `You are now leaving da.com and will be redirected to "${theme}", a Vyoma-managed website. Click ‘Ok’ to proceed.`
+          `You are now leaving www.digitalsanskrit.com and will be redirected to quiz.digitalsanskrit.com, a Vyoma-managed website. Click ‘Ok’ to proceed.`
         )
       
       if (!data) {
