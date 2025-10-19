@@ -1,0 +1,14 @@
+<!-- public/404.html -->
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="refresh" content="0; url=/vyoma-online-quiz/" />
+    <script>
+      // Preserve client-side route on refresh by rewriting to the correct base.
+      const segment = location.pathname.replace(/^\/vyoma-online-quiz/, "");
+      const target = "/vyoma-online-quiz/" + (segment.startsWith("/") ? segment.slice(1) : segment);
+      window.location.replace(target);
+    </script>
+  </head>
+  <body></body>
+</html>

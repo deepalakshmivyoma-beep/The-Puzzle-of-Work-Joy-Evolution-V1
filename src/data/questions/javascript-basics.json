@@ -1,0 +1,117 @@
+{
+  "name": "JavaScript Basics",
+  "description": "Test your knowledge of fundamental JavaScript concepts",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which of the following is NOT a JavaScript data type?",
+      "options": [
+        "String",
+        "Boolean",
+        "Float",
+        "Undefined"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 2,
+      "question": "What is the output of: typeof null?",
+      "options": [
+        "null",
+        "object",
+        "undefined",
+        "number"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 3,
+      "question": "Which keyword is used to declare a constant in JavaScript?",
+      "options": [
+        "var",
+        "let",
+        "const",
+        "constant"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 4,
+      "question": "What does the '===' operator do in JavaScript?",
+      "options": [
+        "Assigns a value",
+        "Compares values only",
+        "Compares both value and type",
+        "None of the above"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 5,
+      "question": "Which method is used to add an element to the end of an array?",
+      "options": [
+        "push()",
+        "append()",
+        "add()",
+        "insert()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 6,
+      "question": "What is the correct way to create a function in JavaScript?",
+      "options": [
+        "function = myFunction()",
+        "function myFunction()",
+        "create myFunction()",
+        "def myFunction()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 7,
+      "question": "Which of the following is a loop structure in JavaScript?",
+      "options": [
+        "loop",
+        "repeat",
+        "for",
+        "iterate"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 8,
+      "question": "What does JSON stand for?",
+      "options": [
+        "JavaScript Object Notation",
+        "JavaScript Online Network",
+        "Java Standard Object Notation",
+        "JavaScript Oriented Naming"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 9,
+      "question": "Which symbol is used for single-line comments in JavaScript?",
+      "options": [
+        "#",
+        "//",
+        "/* */",
+        "--"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 10,
+      "question": "What is the result of: Boolean(0)?",
+      "options": [
+        "true",
+        "false",
+        "0",
+        "undefined"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}
+

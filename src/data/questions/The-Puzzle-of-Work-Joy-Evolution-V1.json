@@ -1,0 +1,334 @@
+{
+    "name": "रामायण",
+    "description": "महर्षि वाल्मीकि विरचितस्य रामायणस्य प्रश्नाः",
+    "questions": [
+        {
+            "id": 1,
+            "question": "What is the primary reason for the conciseness of ancient Indian texts in an oral tradition?",
+            "options": [
+                "It prevents conflicts between different fields of study",
+                "It makes the texts less complex for learners",
+                "It improves the efficacy of retention and transmission",
+                "It makes the texts deliberately difficult to keep it away from non-scholars"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 2,
+            "question": "Which of the following is NOT one of the three prasthāna-s that new schools of thought needed to pass?",
+            "options": [
+                "Brahmasūtra",
+                "Daśopaniṣad",
+                "Bhagavad Gītā",
+                "Mahābhārata"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": 3,
+            "question": "According to Ādi Śaṅkara's commentary on Gītā, what are the two 'Blocks of Dharma propounded in the Veda-s'?",
+            "options": [
+                "Rituals & Meditation",
+                "Health & Wealth",
+                "Industriousness & Contemplation",
+                "Truth & Non-Violence"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 4,
+            "question": "According to Svāmī Vivekānanda, a person of true character will have the heart of a lion, from which he/she will derive what?",
+            "options": [
+                "Infinite patience",
+                "Infinite strength",
+                "Infinite knowledge",
+                "Infinite memory"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 5,
+            "question": "What is the theme of the first six chapters of the Gītā?",
+            "options": [
+                "The relationship between Jīva, Jagat, and Īśvara",
+                "The subtle aspects of perfection and modifying behavioural practices",
+                "The law of conservation of divinity",
+                "Karma Yoga, focusing on the individual in the context of work"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": 6,
+            "question": "The author suggests that a dharmic way of life and belief in transcendence are conducive to what?",
+            "options": [
+                "Developing character",
+                "Earning puṇya which facilitates happiness in future births",
+                "Leading a simple life with absolutely no material desires",
+                "Accepting the fast-paced changes of the current world"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 7,
+            "question": "What does the Sanskrit phrase 'निमित्तमात्रं भव सव्यसाचिन्' (nimittamātraṃ bhava savyasācin) from Chapter 11 of the Gītā mean?",
+            "options": [
+                "You are my disciple and I will lead you on the right path",
+                "I am the path, the way, and the truth",
+                "Perform your duty without attachment to the results",
+                "Be, but an instrument, a medium that receives on behalf of a larger audience"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": 8,
+            "question": "According to the text, what is the fundamental difference between Pain and Suffering?",
+            "options": [
+                "Pain is emotional and only affects the mind, while suffering is purely physical",
+                "Pain is a natural process that the body experiences and eventually subsides, while suffering is a choice one makes when undergoing pain",
+                "Pain is long-lasting and unavoidable, while suffering can be instantly removed by magic or Yoga",
+                "Pain requires physical instruments to cause, whereas suffering is caused by emotional setbacks alone"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 9,
+            "question": "What does the text suggest is a major source of trouble or problems in the entire world, according to the profound message of the Gītā's very first śloka?",
+            "options": [
+                "Wars, which lead to huge suffering and loss of lives",
+                "Greed for wealth, which creates a rift even among members of the same family",
+                "Attachment to \"My People,\" worldly entities, positions, fame, and resources",
+                "Lack of knowledge of Dharma among leaders which causes them to take bad decisions"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 10,
+            "question": "What is the meaning of the word 'Dharma'?",
+            "options": [
+                "It refers to the cardinal principle of sustainability",
+                "It means to conquer the entire world by peaceful means",
+                "It is a set of universal values that always hold true for every individual and every situation",
+                "It is a set of rituals which help establish world peace"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 11,
+            "question": "What is the first thing that happens when someone faces a crisis?",
+            "options": [
+                "They do things that they repent later",
+                "They become very defensive",
+                "They are overcome by emotions and fears",
+                "They lose the power of discrimination"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": 12,
+            "question": "What is the result of using intellect to defend the status quo in a crisis, rather than using it for objective decision-making?",
+            "options": [
+                "It helps maintain a sense of calm",
+                "It results in making bad decisions",
+                "It strengthens one's conviction",
+                "It prevents the resolution of the crisis"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 13,
+            "question": "In the analogy of 'Pain vs Suffering,' what freedom do humans have?",
+            "options": [
+                "The freedom to avoid all pain completely",
+                "The freedom to choose whether or not to suffer in response to pain",
+                "The freedom to change or shorten the course of pain, say, by dressing a wound with bandages",
+                "The freedom to overcome pain by using mantra-s and other supernatural techniques"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 14,
+            "question": "Why are valuable lessons not taught unless someone asks for them?",
+            "options": [
+                "Because such knowledge is secret and is to be shared only with an elite set of people",
+                "Because they are difficult to explain and take lot of time and effort",
+                "Because they don't carry value unless someone is in need and also mentally prepared.",
+                "Because it requires the seeker to first declare their inferiority to the person they are seeking these lessons from"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 15,
+            "question": "What is necessary to achieve great things according to the teaching of Bhagavad Gītā?",
+            "options": [
+                "Work quickly without procrastinating, as actions bring results",
+                "Focus only on the final goal without getting distracted by details of process",
+                "Brainstorm extensively and seek advice from experienced elders before embarking on any work",
+                "Retain a calm state and execute actions carefully at the ground level"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": 16,
+            "question": "What is more effective when facing a deep problem?",
+            "options": [
+                "Brainstorming ideas quickly to arrive at the solution intuitively",
+                "Seeking advice from as many people as possible and putting the ideas to vote",
+                "Brain stilling - Have a calm and settled mind and then contemplate",
+                "Allowing the problem to resolve itself rather than jumping in to solve it"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 17,
+            "question": "What should be the central objective of work?",
+            "options": [
+                "To earn as much money as possible and retire early, to have time for spiritual pursuits",
+                "To compete with others and outperform them, as competitiveness leads to excellence",
+                "To complete all tasks to the highest possible state of perfection, so that success is guaranteed",
+                "To evolve ourselves, and make us complete and stronger individuals."
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": 18,
+            "question": "How should one approach work?",
+            "options": [
+                "Work without any result orientation",
+                "Let the motive be that the inner self gets stronger",
+                "Understand that we can never disengage from doing work",
+                "All of the above"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": 19,
+            "question": "In the powerful imagery created by Yama for Naciketas, what is the chariot?",
+            "options": [
+                "Body",
+                "Mind",
+                "Intellect",
+                "Ātman"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 20,
+            "question": "What kind of a leader is most likely to succeed in his leadership pursuits, as demonstrated by Kṛṣṇa?",
+            "options": [
+                "One who treats all his followers equally & fairly",
+                "One who leads from the front by being willing to take up any task for the team",
+                "One who gives constructive feedback and pushes his team to succeed",
+                "One who has nothing to gain personally by being a leader"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": 21,
+            "question": "What is the core meaning of Tapas, as described in the book?",
+            "options": [
+                "The practice of outsourcing all of one's activities to others",
+                "A mechanism to achieve a materialistic goal, like making money",
+                "Concentrated and continuous effort directed toward a single, focused goal",
+                "A state of inaction and mental rest"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 22,
+            "question": "What is the physical effect of a Yajña on the offering?",
+            "options": [
+                "The offering is preserved in a new form",
+                "The offering becomes a new object of worship",
+                "The offering is distributed to the attendees",
+                "The offering is completely annihilated and becomes ashes (bhasma)"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": 23,
+            "question": "Developing a sense of detachment over time is the symbolic effect of Yajña",
+            "options": [
+                "TRUE",
+                "FALSE"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 24,
+            "question": "Which of the following best describes the practice of Yoga Yajña?",
+            "options": [
+                "A form of external sacrifice where wealth and material possessions are offered",
+                "A higher-level sacrifice focused on the practice of self-control and austerity",
+                "The eight-step path as outlined in Patañjali's Yoga Sūtra-s",
+                "The symbolic beginning of a spiritual journey"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 25,
+            "question": "What is identified as an 'important ingredient that one must possess to obtain knowledge'?",
+            "options": [
+                "Worship",
+                "Bhakti",
+                "Bliss",
+                "Śraddhā"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": 26,
+            "question": "What is the name for the process, practice, or methodology used to make the mind subtle?",
+            "options": [
+                "Āsana",
+                "Prāņāyāma",
+                "Dhyāna",
+                "Pratyāhāra"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 27,
+            "question": "As per Kṛṣṇa's answer in the Gīta, what is responsible for an individual's actions and their results?",
+            "options": [
+                "God is responsible for the agency, action, and results",
+                "External factors like the environment",
+                "One's own Sva-bhāva (nature)",
+                "The intentions behind the act"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 28,
+            "question": "According to Kṛṣṇa what two important tools are needed to fix the problem of 'mindset inertia'?",
+            "options": [
+                "Focus and discipline",
+                "Practice and Dispassion",
+                "Concentration and meditation",
+                "Practice and patience"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 29,
+            "question": "What is the key principle that Kṛṣṇa emphasises regarding a yogī-s lifestyle?",
+            "options": [
+                "Adhering to a very strict and ascetic lifestyle while minimising attention to mundane activities like sleep and food",
+                "Leading a life of extreme and unnatural conditions to enhance one's dedication",
+                "Finding a balance and moderation in one's daily behavior, such as eating and sleeping",
+                "Focusing exclusively on meditation without any attention to the external world"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 30,
+            "question": "What quality does the author attribute to a person who is a true yogī?",
+            "options": [
+                "They perform actions with full-focus so that nothing goes wrong, and the work is guaranteed to succeed",
+                "They perform actions as required without worrying about the results (karma-phala).",
+                "They have mastered both physical postures (āsana-s) and mental focus (meditation)",
+                "They avoid material pursuits and focus only on their spiritual growth"
+            ],
+            "correctAnswer": 1
+        }
+    ]
+}

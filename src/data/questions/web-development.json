@@ -1,0 +1,117 @@
+{
+  "name": "Web Development",
+  "description": "General web development concepts including HTML, CSS, and best practices",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What does HTML stand for?",
+      "options": [
+        "Hyper Text Markup Language",
+        "High Tech Modern Language",
+        "Home Tool Markup Language",
+        "Hyperlinks and Text Markup Language"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 2,
+      "question": "Which CSS property is used to change the text color?",
+      "options": [
+        "text-color",
+        "font-color",
+        "color",
+        "text-style"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 3,
+      "question": "What is the correct HTML element for the largest heading?",
+      "options": [
+        "<heading>",
+        "<h6>",
+        "<h1>",
+        "<head>"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 4,
+      "question": "Which HTTP status code indicates a successful request?",
+      "options": [
+        "404",
+        "500",
+        "200",
+        "301"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 5,
+      "question": "What is CSS used for?",
+      "options": [
+        "Structuring web pages",
+        "Styling web pages",
+        "Programming logic",
+        "Database management"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 6,
+      "question": "Which tag is used to create a hyperlink in HTML?",
+      "options": [
+        "<link>",
+        "<a>",
+        "<href>",
+        "<url>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 7,
+      "question": "What does API stand for?",
+      "options": [
+        "Application Programming Interface",
+        "Advanced Programming Integration",
+        "Application Process Integration",
+        "Automated Programming Interface"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 8,
+      "question": "Which CSS property is used to make text bold?",
+      "options": [
+        "text-weight",
+        "font-style",
+        "font-weight",
+        "text-bold"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 9,
+      "question": "What is the purpose of the <meta> tag in HTML?",
+      "options": [
+        "To create metadata about the document",
+        "To insert images",
+        "To create links",
+        "To add scripts"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "question": "Which of the following is a CSS framework?",
+      "options": [
+        "React",
+        "Bootstrap",
+        "Node.js",
+        "Express"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}
+

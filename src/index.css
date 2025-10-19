@@ -1,0 +1,144 @@
+:root {
+  font-family: 'Noto Sans Devanagari', 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+  font-size: 1.2em;
+
+  /* Refined Cultural Color Palette */
+  --primary-bg: #0D1117;
+  --secondary-bg: #161B22;
+  --surface-bg: #21262D;
+  --accent-primary: #FF7F50;
+  --accent-secondary: #58A6FF;
+  --text-primary: #F0F6FC;
+  --text-secondary: #A0B0C0;
+  --text-muted: #94a3b8;
+  --border-primary: #30363D;
+  --border-secondary: #21262D;
+  --success-color: #3FB950;
+  --error-color: #F85149;
+  --warning-color: #E3B341;
+  
+  color: var(--text-light);
+  background: var(--primary-bg);
+  min-height: 100vh;
+  background-attachment: fixed;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: var(--text-primary);
+}
+
+h2 {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+h3 {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+button {
+  border-radius: 12px;
+  border: 1px solid var(--border-primary);
+  padding: 0.75em 1.5em;
+  font-size: 0.875rem;
+  font-weight: 500;
+  font-family: inherit;
+  background: var(--secondary-bg);
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  background: var(--accent-primary);
+}
+
+button:focus,
+button:focus-visible {
+  outline: 3px solid var(--accent-gold);
+  outline-offset: 2px;
+}
+
+input {
+  border-radius: 12px;
+  border: 2px solid var(--accent-gold);
+  padding: 0.8em 1.2em;
+  font-size: 1em;
+  font-family: inherit;
+  background-color: rgba(10, 25, 47, 0.8);
+  color: var(--text-light);
+  backdrop-filter: blur(10px);
+}
+
+input:focus {
+  outline: 2px solid var(--accent-primary);
+  outline-offset: 2px;
+}
+
+/* Traditional Indian pattern overlay */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: 
+    radial-gradient(circle at 20% 20%, rgba(255, 127, 80, 0.02) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(88, 166, 255, 0.02) 0%, transparent 50%);
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* Devanagari text styling */
+.devanagari {
+  font-family: 'Noto Sans Devanagari', serif;
+  color: var(--accent-primary);
+  font-weight: 600;
+}
+
+.devanagari-gold {
+  color: var(--accent-primary);
+  font-weight: 700;
+}
+
+/* Traditional Indian card styling */
+.professional-card {
+  background: var(--secondary-bg);
+  border: 1px solid var(--border-primary);
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  transition: all 0.2s ease;
+}
+
+.professional-card:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  border-color: var(--accent-primary);
+}
+

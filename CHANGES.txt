@@ -1,0 +1,23 @@
+✨ APP REFACTORED TO WORK LOCALLY - NO AWS NEEDED!
+
+📦 What Changed:
+  ✅ Questions now stored in src/data/questions/
+  ✅ Scores saved to browser localStorage  
+  ✅ Removed AWS SDK dependency
+  ✅ No .env configuration needed
+  ✅ Works 100% offline
+
+🚀 Quick Start:
+  1. npm install
+  2. npm run dev
+  3. Open http://localhost:5173
+
+📚 All 6 quizzes included:
+  • JavaScript Basics
+  • React Fundamentals
+  • Web Development
+  • रामायण (Ramayana)
+  • महाभारतम् (Mahabharata)
+  • संस्कृत व्याकरणम् (Sanskrit Grammar)
+
+📖 Read START_HERE.md or LOCAL_SETUP.md for details!

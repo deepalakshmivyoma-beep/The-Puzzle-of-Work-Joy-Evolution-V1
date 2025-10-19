@@ -1,0 +1,117 @@
+{
+  "name": "React Fundamentals",
+  "description": "Test your understanding of React core concepts and best practices",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is React?",
+      "options": [
+        "A programming language",
+        "A JavaScript library for building user interfaces",
+        "A database",
+        "A CSS framework"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 2,
+      "question": "Which hook is used to manage state in functional components?",
+      "options": [
+        "useEffect",
+        "useState",
+        "useContext",
+        "useReducer"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 3,
+      "question": "What is JSX?",
+      "options": [
+        "A separate templating language",
+        "A syntax extension for JavaScript",
+        "A CSS preprocessor",
+        "A database query language"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 4,
+      "question": "Which method is called after a component is rendered for the first time?",
+      "options": [
+        "componentWillMount",
+        "componentDidMount",
+        "componentWillUpdate",
+        "render"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 5,
+      "question": "What is the purpose of the useEffect hook?",
+      "options": [
+        "To manage component state",
+        "To handle side effects in functional components",
+        "To create context",
+        "To optimize performance"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 6,
+      "question": "How do you pass data from parent to child component?",
+      "options": [
+        "Using state",
+        "Using props",
+        "Using context only",
+        "Using refs"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 7,
+      "question": "What is the Virtual DOM?",
+      "options": [
+        "A real DOM element",
+        "A lightweight copy of the actual DOM",
+        "A browser feature",
+        "A CSS property"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 8,
+      "question": "Which of the following is used for routing in React?",
+      "options": [
+        "React Navigation",
+        "React Router",
+        "React Route",
+        "React Path"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 9,
+      "question": "What is the key prop used for in lists?",
+      "options": [
+        "Styling elements",
+        "Helping React identify which items have changed",
+        "Adding event listeners",
+        "Managing state"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 10,
+      "question": "What does React.Fragment do?",
+      "options": [
+        "Creates a new component",
+        "Groups multiple elements without adding extra nodes to the DOM",
+        "Adds styling to components",
+        "Manages component lifecycle"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}
+
